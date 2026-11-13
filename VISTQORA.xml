@@ -265,7 +265,7 @@
                     <div class='py-4 px-2 text-center'><p class='text-xs font-semibold text-neutral-400'>Adsterra Article Slot</p></div>
                   </div>
 
-                  <b:include name='comment-form'/>
+                  <b:include data='post' name='comment-form'/>
                 </div>
               </b:loop>
             </div>
