@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsversion='3' b:responsive='true' b:templateversion='3.0.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gdata/b' xmlns:data='http://www.google.com/2005/gdata/data' xmlns:expr='http://www.google.com/2005/gdata/expr'>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='3.0.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
   <meta charset='utf-8'/>
   <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
@@ -137,7 +137,7 @@
       padding: 1px 4px;
       border-radius: 2px;
     }
-  ]]></style>
+  ]]></b:skin>
 </head>
 
 <body class='bg-white text-neutral-900 dark:bg-[#080808] dark:text-neutral-100'>
@@ -265,7 +265,7 @@
                     <div class='py-4 px-2 text-center'><p class='text-xs font-semibold text-neutral-400'>Adsterra Article Slot</p></div>
                   </div>
 
-                  <b:include name='comment-form'/>
+                  <b:include data='post' name='comment-form'/>
                 </div>
               </b:loop>
             </div>
@@ -384,7 +384,7 @@
         <b:includable id='comment-form' var='post'>
           <div class='mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800 space-y-6' id='comments'>
             <h3 class='text-xl font-bold font-serif text-neutral-900 dark:text-white'>Discussion &amp; Native Blogger Comments</h3>
-            <b:include cond='data:post.allowComments' name='comment-form'/>
+            <b:include cond='data:post.allowComments' data='post' name='commentPicker'/>
           </div>
         </b:includable>
 
