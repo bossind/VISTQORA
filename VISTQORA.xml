@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsversion='3' b:responsive='true' b:templateversion='3.0.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gdata/b' xmlns:data='http://www.google.com/2005/gdata/data' xmlns:expr='http://www.google.com/2005/gdata/expr'>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='3.0.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
   <meta charset='utf-8'/>
   <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
@@ -137,7 +137,7 @@
       padding: 1px 4px;
       border-radius: 2px;
     }
-  ]]></style>
+  ]]></b:skin>
 </head>
 
 <body class='bg-white text-neutral-900 dark:bg-[#080808] dark:text-neutral-100'>
